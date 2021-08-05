@@ -194,16 +194,68 @@
 
 
 
+// // -------------------- mission Thirteen --------------------
+
+
+//   var words = ["yoni", 25, "oshri", 24,"lior" , 24];
+//   for(var i=0; i<words.length;i++){
+//       if(words[i]*0==0){
+//          words[i]= "not a number"
+//       }
+//   }
+//  console.log(words);
+
+ // ----------------------------------------------------------
 
 
 
 
 
-// צרו מערך אקראי של 6 מספרים ומילים. צרו לולאה שעוברת על המערך ומחליפה את המילים במילה 
+ // // -------------------- mission fourteen --------------------
 
-// var numAndwords = ["yoni", 25, "oshri", 24,"lior" , 24];
-// for(var i=0; i<numAndwords.length;i++){
-//     if(numAndwords[i] *0 !=0){
-//         numAndwords[i]= "not a number"
-//     }
-// }
+
+//   var numberUser = [];
+//   var contter =0 ;
+
+//   while (contter<10){
+//       var numFromUser = Number (prompt("give me ten numbers"))
+//       if(numFromUser%2==0){
+//          numberUser[contter]=numFromUser
+//          contter++
+//      }
+//  }
+//  console.log(numberUser); 
+ 
+
+// // --------------------------------------------------
+
+
+
+
+ // // -------------------- mission fifteen --------------------
+
+
+
+ var height, width , resultArea, resultScope,numOne ,numTwo,numThree
+
+ height = Number(prompt("select the height"));
+ width = Number(prompt("select the width"));
+
+ resultArea = height*width
+ console.log(`result area is ${resultArea}`);
+
+ resultScope = (height*2)+(width*2);
+ console.log (`result scope is ${resultScope}`);
+
+numOne = Number(prompt("select a number"));
+numTwo = Number(prompt("select a number"));
+numThree = Number(prompt("select a number"));
+
+if(numOne<numTwo&&numTwo<numThree){
+    console.log("ascending order")
+}else if (numOne>numTwo&&numTwo>numThree){
+    console.log ("Descending")
+}
+else {
+    console.log ("no result")
+}
